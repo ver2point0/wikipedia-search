@@ -1,2 +1,2 @@
-# wikipedia-search
+# Wikipedia Search
 FCC intermediate project
