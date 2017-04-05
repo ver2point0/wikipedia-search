@@ -14,8 +14,17 @@
     <![endif]-->
   </head>
   <body>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--http://www.google.com-->
+    <div id="tfheader"> 
+		<form id="tfnewsearch" action="http://www.google.com" method="get">
+		  <input type="text" id="tfq2b" class="tftextinput2" name="search" size="21" maxlength="120" value="search" placeholder="Enter your search term">
+		  <input type="submit" value="Search your term" class="tfbutton2">
+		  <input type="submit" value="Get a random article" class="tfbutton2">
+		</form>
+		<div class="tfclear"></div>
+		
+		
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="js/ws.js"></script>
   </body>
 </html>
