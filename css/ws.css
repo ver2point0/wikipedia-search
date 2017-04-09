@@ -1,0 +1,19 @@
+body { 
+  margin-top: 20px;
+  background-color: #bdc3c7;
+  font-family: sans-serif
+}
+
+h1, h2, h3 {
+  font-family: sans-serif;
+}
+
+.result {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+#random {
+  margin: 20px;
+}

@@ -15,7 +15,21 @@
     <![endif]-->
   </head>
   <body>
-		
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <h1>What do you want know about?</h1>
+          <form class="form-inline" id="wikisearch">
+            <input class="form-control" id="wikiquery" required placeholder="Enter your search" minlength="1">
+            <input class="btn btn-primary form-control" type="submit" value="Show me">
+          </form>
+          <a class="btn btn-warning" id="random" href="https://en.wikipedia.org/wiki/Special:Random" role="button">Random Wiki</a>
+        </div>
+        <div class="col-xs-12">
+          <search-result></search-result>
+        </div>
+      </div>
+    </div>
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/ws.js"></script>
